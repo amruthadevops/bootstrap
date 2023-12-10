@@ -1,0 +1,692 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap responsive website </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+  <header class="container-fluid">
+    <div id="top" class="top bg-primary text-light">
+      <div class="container">
+
+        <div class="row py-1">
+          <div class="col-12 col-lg-6">
+            <p class="m-0 "><b>Email: BTS@gmail.com</b></p>
+          </div>
+          <div class="col-12 col-lg-6">
+            <p class="text-lg-end m-0"><b>Phone: +880 1212 12123</b></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- end top -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <!-- <img width="55px" src="img/logo.png" alt="Best IT Company"> -->
+          <img src=".//img/bts_logo.jpg" alt="" height="60px" width="60px" style="border-radius: 50%;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item px-3">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+
+            <li class="nav-item px-3">
+              <a class="nav-link  active" aria-current="page" href="#about">About Us</a>
+            </li>
+
+            <li class="nav-item px-3">
+              <a class="nav-link " aria-current="page" href="#contact">Contact Us</a>
+            </li>
+
+            <li class="nav-item px-3">
+              <a class="nav-link " aria-current="page" href="#team">Our Team</a>
+            </li>
+
+            <li class="nav-item dropdown px-3">
+              <a class="nav-link dropdown-toggle" href="#service" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">  
+                Service
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#service">Our Songs</a></li>
+                <li><a class="dropdown-item" href="#service">Our Members</a></li>
+              </ul>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link " aria-current="page" href="#faq">FAQ</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <a href="" class=""><img src="img/nav-icon/facebook.png" alt=""></a> &nbsp;&nbsp;
+            <a href="" class=""><img src="img/nav-icon/skype.png" alt=""></a> &nbsp;&nbsp;
+            <a href="" class=""><img src="img/nav-icon/linkedin.png" alt=""></a>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+
+  </header>
+
+
+  <section class="container-fluid">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators d-none d-lg-flex">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/slider2.jpg" class="d-block w-100" alt="Slide 1" style="height: 600px;">
+        </div>
+        <div class="carousel-item">
+         <img src="./img/slider1.jpg" class="d-block w-100" alt="Slide 2" style="height: 600px;">
+       </div>
+       <div class="carousel-item">
+         <img src="./img/slider3.jpg" class="d-block w-100" alt="Slide 3" style="height: 600px;">
+       </div>
+       <div class="carousel-item">
+        <img src="./img/slider4.jpg" class="d-block w-100" alt="Slide 4" style="height: 600px;">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/slider5.jpg" class="d-block w-100" alt="Slide 5" style="height: 600px;">
+      </div>
+     </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<section id="about" class="container-fluid py-5">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12 col-lg-5 ">
+        <img class="border border-bold img-fluid" class="img-fluid" src="./img/about.jpg" alt="Company Image">
+      </div>
+      <div class="col-12 col-lg-7">
+        <h1 class="display-6"><b>About US</b></h1>
+        <p>
+          BTS, an acronym of Bangtan Sonyeondan or “Beyond the Scene,” is a Grammy-nominated South Korean group that has been capturing the hearts of millions of fans globally since its debut in June 2013.
+        </p>
+        <p>
+          The members of BTS are RM, Jin, SUGA, j-hope, Jimin, V, and Jung Kook. Gaining recognition for their authentic and self-produced music, top-notch performances, and the way they interact with their fans, BTS has established themselves as “21st century Pop Icons” breaking countless world records. 1 songs in a span of 9 months, performed multiple sold-out stadium shows across the world, and been named TIME’s Entertainer of the Year 2020. BTS has been nominated for Best Pop Duo/Group Performance for the 63rd Grammy Awards and recognized with numerous prestigious awards like the Billboard Music Awards, American Music Awards and MTV Video Music Awards.
+        </p>
+        <div class="py-1">
+          <h3 class="display-6">Follow Us</h3>
+          <a href="" class=""><img src="img/nav-icon/facebook.png" alt=""></a> &nbsp;&nbsp;
+          <a href="" class=""><img src="img/nav-icon/skype.png" alt=""></a> &nbsp;&nbsp;
+          <a href="" class=""><img src="img/nav-icon/linkedin.png" alt=""></a> &nbsp;&nbsp;
+          <a href="" class=""><img src="img/nav-icon/youtube.png" alt=""></a> &nbsp;&nbsp;
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="service" class="bg-light container-fluid" >
+  <div class="container py-3">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="display-6 "><b>Our Songs</b></h2>
+        <p class="">BTS, also known as the Bangtan Boys, is a South Korean boy band formed in 2010. The band consists of Jin, Suga, J-Hope, RM, Jimin, V, and Jungkook, who co-write or co-produce much of their material</p>
+      </div>
+
+      <div class="col-12 text-center">
+        <img  src="img/star.png" alt="star">
+        <img  src="img/star.png" alt="star">
+        <img  src="img/star.png" alt="star">
+        <img  src="img/star.png" alt="star">
+        <img  src="img/star.png" alt="star">
+      </div>
+    </div>
+
+    <div class="row py-5">
+
+      <div class="col-md-6 col-12 col-lg-3 mb-4">
+        <div class="border p-3">
+          <div class="text-center">
+            <img width="198px"  src="./img/run-bts.png" alt="">
+          </div>
+          <div class="text-center">
+            <h5 class="text-uppercase py-2">Run BTS</h5>
+            <p class="">
+              Album: Proof <br>Released: 2022 <br>Artist: BTS 
+            </p>
+            <button data-bs-toggle="modal" data-bs-target="#exampleModal"  class="btn  btn-outline-dark">Get a Quote</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6 col-12 col-lg-3 mb-4">
+        <div class="border p-3">
+          <div class="text-center">
+            <img width="175px"  src="./img/dynamite.jpeg" alt="">
+          </div>
+          <div class="text-center">
+            <h5 class="text-uppercase py-2">Dynamite</h5>
+            <p class="">
+              Album: BE <br>Released: 2020 <br>Artist: BTS
+            </p>
+            <button data-bs-toggle="modal" data-bs-target="#exampleModal"  class="btn  btn-outline-dark">Get a Quote</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-12 col-lg-3 mb-4">
+        <div class="border p-3">
+          <div class="text-center">
+            <img width="210px"  src="./img/fake-love.jpeg" alt="">
+          </div>
+          <div class="text-center">
+            <h5 class="text-uppercase py-2">FAKE LOVE</h5>
+            <p class="">
+              Album: Love Yourself: Tear <br>Artist: BTS
+            </p>
+            <button data-bs-toggle="modal" data-bs-target="#exampleModal"  class="btn  btn-outline-dark">Get a Quote</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-12 col-lg-3 mb-4">
+        <div class="border p-3">
+          <div class="text-center">
+            <img width="175px"  src="./img/butter.jpg" alt="">
+          </div>
+          <div class="text-center">
+            <h5 class="text-uppercase py-2">Butter</h5>
+            <p class="">
+              Album: Butter (Hotter, Sweeter, Cooler) <br>Released: 2021 <br>Artist: BTS
+            </p>
+            <button data-bs-toggle="modal" data-bs-target="#exampleModal"  class="btn  btn-outline-dark">Get a Quote</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-12 col-lg-3 mb-4 mb-lg-0">
+        <div class="border p-3">
+          <div class="text-center">
+            <img width="148px"  src="./img/mic drop.jpg" alt="">
+          </div>
+          <div class="text-center">
+            <h5 class="text-uppercase py-2">MIC Drop</h5>
+            <p class="">
+              Album: Love Yourself: Her <br>Artist: BTS
+            </p>
+            <button data-bs-toggle="modal" data-bs-target="#exampleModal"  class="btn  btn-outline-dark">Get a Quote</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-12 col-lg-3 mb-4 mb-lg-0">
+        <div class="border p-3">
+          <div class="text-center">
+            <img width="228px"  src="./img/life-goes-on.jpg" alt="">
+          </div>
+          <div class="text-center">
+            <h5 class="text-uppercase py-2">Life Goes On</h5>
+            <p class="">
+              Album: BE <br>Artist: BTS <br>Released: 2020
+            </p>
+            <button data-bs-toggle="modal" data-bs-target="#exampleModal"  class="btn  btn-outline-dark">Get a Quote</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-12 col-lg-3 mb-4 mb-lg-0">
+        <div class="border p-3">
+          <div class="text-center">
+            <img width="195px"  src="./img/spring-day.jpg" alt="">
+          </div>
+          <div class="text-center">
+            <h5 class="text-uppercase py-2">Spring Day</h5>
+            <p class="">
+              Album: You Never Walk Alone <br>Released: 2017 <br>Artist: BTS
+            </p>
+            <button data-bs-toggle="modal" data-bs-target="#exampleModal"  class="btn  btn-outline-dark">Get a Quote</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-12 col-lg-3 mb-4 mb-lg-0">
+        <div class="border p-3">
+          <div class="text-center">
+            <img width="198px"  src="./img/blood-sweat-tears.jpg" alt="">
+          </div>
+          <div class="text-center">
+            <h5 class="text-uppercase py-2">Blood Sweat & Tears</h5>
+            <p class="">
+              Album: Wings <br>Artist: BTS
+            </p>
+            <button data-bs-toggle="modal" data-bs-target="#exampleModal"  class="btn  btn-outline-dark">Get a Quote</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="team" class="container py-3">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h2 class="display-6"><b>Meet our Team</b></h2>
+      <p class="">BTS also known as the Bangtan Boys, is a South Korean boy band formed in 2010. The band consists of Jin, Suga, J-Hope, RM, Jimin, V, and Jungkook</p>
+    </div>
+
+    <div class="col-12 text-center">
+      <img  src="img/star.png" alt="star">
+      <img  src="img/star.png" alt="star">
+      <img  src="img/star.png" alt="star">
+      <img  src="img/star.png" alt="star">
+      <img  src="img/star.png" alt="star">
+    </div>
+  </div>
+
+  <div class="row pt-5">
+    <div class="col-12 col-lg-10 offset-lg-1">
+      <div class="row">
+
+        <div class="col-12 col-lg-4 text-center mb-4 mb-lg-0">
+          <div class="card" >
+            <img class="card-img-top" src="./img/rm.jpg" alt="Card image cap">
+            <div class="card-body">
+             <h4 class="py-2 pb-0"><i>Kim Nam-joon</i></h4> <h3>Rm</h3>
+             <h5>Main Rapper</h5>
+             <div class="py-3">
+               <a class="btn   text-light" href=""><img src="img/youtube.png" alt=""></a>
+               <a class="btn   text-light" href=""><img src="img/twitter.png" alt=""></a>
+               <a class="btn   text-light" href=""><img src="img/linkedin.png" alt=""></a>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col-12 col-lg-4 text-center mb-4 mb-lg-0">
+        <div class="card" >
+          <img class="card-img-top" src="./img/jin.jpg" alt="Card image cap">
+          <div class="card-body">
+           <h4 class="py-2 pb-0"><i>Kim Seok-jin</i></h4> <h4>Jin</h4>
+           <h5>Vocals</h5>
+           <div class="py-3">
+             <a class="btn   text-light" href=""><img src="img/youtube.png" alt=""></a>
+             <a class="btn   text-light" href=""><img src="img/twitter.png" alt=""></a>
+             <a class="btn   text-light" href=""><img src="img/linkedin.png" alt=""></a>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="col-12 col-lg-4 text-center mb-4 mb-lg-0">
+      <div class="card" >
+        <img class="card-img-top" src="./img/suga.jpg" alt="Card image cap">
+        <div class="card-body">
+         <h4 class="py-2 pb-0"><i>Min yoon-gi</i></h4><h4>Suga</h4>
+         <h5>Lead Rapper</h5>
+         <div class="py-3">
+           <a class="btn   text-light" href=""><img src="img/youtube.png" alt=""></a>
+           <a class="btn   text-light" href=""><img src="img/twitter.png" alt=""></a>
+           <a class="btn   text-light" href=""><img src="img/linkedin.png" alt=""></a>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="col-12 col-lg-4 text-center mb-4 mb-lg-0">
+    <div class="card" >
+      <img class="card-img-top" src="./img/j-hope.jpg" alt="Card image cap">
+      <div class="card-body">
+       <h4 class="py-2 pb-0"><i>Jung Ho-seok</i></h4><h4>J-hope</h4>
+       <h5>Rapper</h5>
+       <div class="py-3">
+         <a class="btn   text-light" href=""><img src="img/youtube.png" alt=""></a>
+         <a class="btn   text-light" href=""><img src="img/twitter.png" alt=""></a>
+         <a class="btn   text-light" href=""><img src="img/linkedin.png" alt=""></a>
+       </div>
+     </div>
+   </div>
+ </div>   
+ <div class="col-12 col-lg-4 text-center mb-4 mb-lg-0">
+  <div class="card" >
+    <img class="card-img-top" src="./img/jimin.jpg" alt="Card image cap">
+    <div class="card-body">
+     <h4 class="py-2 pb-0"><i>Park Jimin</i></h4><h4>Jimin</h4>
+     <h5>Main Dancer</h5>
+     <div class="py-3">
+       <a class="btn   text-light" href=""><img src="img/youtube.png" alt=""></a>
+       <a class="btn   text-light" href=""><img src="img/twitter.png" alt=""></a>
+       <a class="btn   text-light" href=""><img src="img/linkedin.png" alt=""></a>
+     </div>
+   </div>
+ </div>
+</div>
+
+
+       
+
+       <div class="col-12 col-lg-4 text-center mb-4 mb-lg-0">
+        <div class="card" >
+          <img class="card-img-top" src="./img/v.jpg" alt="Card image cap">
+          <div class="card-body">
+           <h4 class="py-2 pb-0"><i>Kim Tae-hyung</i></h4><h4>V</h4>
+           <h5>Vocals</h5>
+           <div class="py-3">
+             <a class="btn   text-light" href=""><img src="img/youtube.png" alt=""></a>
+             <a class="btn   text-light" href=""><img src="img/twitter.png" alt=""></a>
+             <a class="btn   text-light" href=""><img src="img/linkedin.png" alt=""></a>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="col-12 col-lg-4 text-center mb-4 mb-lg-0">
+      <div class="card" >
+        <img class="card-img-top" src="./img/jk.jpg" alt="Card image cap">
+        <div class="card-body">
+         <h4 class="py-2 pb-0"><i>Jeon Jung-kook</i></h4><h4>jk</h4>
+         <h5>Main Vocals</h5>
+         <div class="py-3">
+           <a class="btn   text-light" href=""><img src="img/youtube.png" alt=""></a>
+           <a class="btn   text-light" href=""><img src="img/twitter.png" alt=""></a>
+           <a class="btn   text-light" href=""><img src="img/linkedin.png" alt=""></a>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</div>
+</div>
+
+</section>
+<!-- 
+<section  class="container-fluid bg-light py-3">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h2 class="display-6"><b>Client Feedback</b></h2>
+      <p class="">Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Nisi, consequuntur!</p>
+    </div>
+
+    <div class="col-12 text-center">
+      <img  src="img/star.png" alt="star">
+      <img  src="img/star.png" alt="star">
+      <img  src="img/star.png" alt="star">
+      <img  src="img/star.png" alt="star">
+      <img  src="img/star.png" alt="star">
+    </div>
+  </div>
+
+  <div class="row pt-5">
+    <div class="col-12">
+
+      <blockquote class="blockquote text-center">
+        <img class="rounded-circle" src="img/client-1.png" alt="">
+        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p> <br>
+        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+      </blockquote>
+    </div>
+  </div>
+</section> -->
+
+<section id="faq" class="container py-3">
+
+
+
+  <div class="row py-5">
+    <div class="col-12 text-center">
+      <h2 class="display-6 "><b>Frequently Asked Questions</b></h2>
+      <p class="">BTS also known as the Bangtan Boys, is a South Korean boy band formed in 2010. The band consists of Jin, Suga, J-Hope, RM, Jimin, V, and Jungkook</p>
+    </div>
+
+    <div class="col-12 text-center">
+      <img  src="img/star.png" alt="star">
+      <img  src="img/star.png" alt="star">
+      <img  src="img/star.png" alt="star">
+      <img  src="img/star.png" alt="star">
+      <img  src="img/star.png" alt="star">
+    </div>
+  </div>
+
+
+  <div class="row">
+
+    <div class="col-12 col-lg-6">
+      <div class="accordion" id="accordion_1">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading_1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_1" aria-expanded="true" aria-controls="collapse_1">
+              Why was BTS popular?
+            </button>
+          </h2>
+          <div id="collapse_1" class="accordion-collapse collapse show" aria-labelledby="heading_1" data-bs-parent="#accordion_1">
+            <div class="accordion-body">
+              Their music — which spans several languages, including Korean, English and Japanese — attracts a global audience, even causing a huge spark in tourism in their home country.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading_2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_2" aria-expanded="false" aria-controls="collapse_2">
+              Who is BTS in simple words?
+            </button>
+          </h2>
+          <div id="collapse_2" class="accordion-collapse collapse" aria-labelledby="heading_2" data-bs-parent="#accordion_1">
+            <div class="accordion-body">
+              <strong>Bts is kpop boy band from BigHit Entertainment.</strong> Bts means Bulletproof Boyscoucts in korean but they have recently changes their english name to Beyond the Scene. They have seven members (3 rappers and 4 vocalists) and <code>debuted on June 12th, 2013</code>. Their fandom name is Army.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading_3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_3" aria-expanded="false" aria-controls="collapse_3">
+              BTS have *all* the awards?
+            </button>
+          </h2>
+          <div id="collapse_3" class="accordion-collapse collapse" aria-labelledby="heading_3" data-bs-parent="#accordion_1">
+            <div class="accordion-body">
+              <strong>To date, BTS have won 483 awards out of 692 nominations</strong> 
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <div class="col-12 col-lg-6">
+      <div class="accordion" id="accordion_2">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading_4">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_4" aria-expanded="true" aria-controls="collapse_4">
+              BTS are a literal national treasure
+            </button>
+          </h2>
+          <div id="collapse_4" class="accordion-collapse collapse show" aria-labelledby="heading_4" data-bs-parent="#accordion_2">
+            <div class="accordion-body">
+              <strong>BTS are a literal national treasure</strong> As a brand, BTS is extremely valuable. Data suggests that the band brings over $3.9 billion to the South Korean economy.
+
+              The Hyundai Research institute found that about <code>800,000</code> visitors visit South Korea because of BTS every year. 
+              
+              If that wasn’t enough, by bringing <code>$3.9 billion</code> each year, the septet could generate an economic value of $39 billion over the next decade!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading_5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_5" aria-expanded="false" aria-controls="collapse_5">
+              What is BTS Speciality?
+           </button>
+         </h2>
+         <div id="collapse_5" class="accordion-collapse collapse" aria-labelledby="heading_5" data-bs-parent="#accordion_2">
+          <div class="accordion-body">
+            Each member has their own special talents that they contribute to BTS to make them the supergroup they are. The members sing, dance, rap, write and produce the music that eventually makes it to ours ears. Their music is fun, but sometimes addresses serious topics like loss and mental health
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading_6">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_6" aria-expanded="false" aria-controls="collapse_6">
+            Is BTS good for students?
+          </button>
+        </h2>
+        <div id="collapse_6" class="accordion-collapse collapse" aria-labelledby="heading_6" data-bs-parent="#accordion_2">
+          <div class="accordion-body">
+            <strong>It depends on how you apply their music and interests into</strong> Good side: BTS gives people life advices. People who actually listen to them, for the music, will understand the meaning of their music and apply it to their lives.
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+</div>
+</section>
+
+
+
+<section id="contact" class="bg-light py-3">
+  <div class="container">
+    <div class="row py-5">
+      <div class="col-12 text-center">
+        <h2 class="display-6 "><b>Contact Us</b></h2>
+        <p class="">BTS also known as the Bangtan Boys, is a South Korean boy band formed in 2010. The band consists of Jin, Suga, J-Hope, RM, Jimin, V, and Jungkook</p>
+      </div>
+      <div class="col-12 text-center">
+        <img  src="img/star.png" alt="star">
+        <img  src="img/star.png" alt="star">
+        <img  src="img/star.png" alt="star">
+        <img  src="img/star.png" alt="star">
+        <img  src="img/star.png" alt="star">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-5 text-center">
+        <img class="img-fluid" src="./img/bighit.jpeg" alt="">
+      </div>
+      <div class="col-12 col-lg-7">
+        <div class="">
+          <form action="">
+            <div class="form-floating">
+              <input required type="text" class="form-control rounded-0" id="floatingName" placeholder="Your Full Name">
+              <label for="floatingName">Your Full Name</label>
+            </div>
+            <div class="form-floating mt-3">
+              <input required type="email" class="form-control rounded-0" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class=" mt-3">
+              <textarea required class="form-control rounded-0" placeholder="Leave a comment here" id="floatingTextarea" cols="30" rows="4" ></textarea>
+            </div>
+            <div class="mt-3">
+              <button class="btn btn-primary w-100 rounded-0" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="py-5 bg-dark text-light">
+  <div class="container">
+    <div class="row pb-5">
+      <div class="col-12 text-center">
+        <a href="#top"><img src="img/top.png" alt=""></a>
+      </div>
+    </div>
+    <div class="row">
+     <div class="col-12 col-lg-4 offset-lg-4">
+       <form action="">
+         <div class="input-group mb-3">
+           <input required type="text" class="form-control rounded-0" placeholder="Your Email" aria-label="Your Email" aria-describedby="button-addon2">
+           <button class="btn btn-outline-info" type="submit" id="button-addon2">Subscribe</button>
+         </div>
+       </form>
+     </div>
+   </div>
+   <div class="row py-4">
+    <div class="col-12 text-center">
+      <a href="" class=""><img src="img/nav-icon/facebook.png" alt=""></a> &nbsp;&nbsp;
+      <a href="" class=""><img src="img/nav-icon/skype.png" alt=""></a> &nbsp;&nbsp;
+      <a href="" class=""><img src="img/nav-icon/linkedin.png" alt=""></a> &nbsp;&nbsp;
+      <a href="" class=""><img src="img/nav-icon/youtube.png" alt=""></a> &nbsp;&nbsp;
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <p class="text-center m-0 text-secondary">CopyRight &copy; Nasir Khan</p>
+    </div>
+  </div>
+</div>
+</footer>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form action="">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Get a Quote</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="form-floating mb-3">
+            <input required type="text" class="form-control" id="floatingInput" placeholder="Best IT Company">
+            <label for="floatingInput">Your Name </label>
+          </div>
+          <div class="form-floating mb-3">
+            <input required type="email" class="form-control" id="floatingImage" placeholder="Email">
+            <label for="floatingImage">Email</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input required type="text" class="form-control" id="floatingPhone" placeholder="Phone">
+            <label for="floatingPhone">Phone Number</label>
+          </div>
+          <select required class="form-select mb-3" multiple aria-label="multiple select example">
+            <option value="0" >Select Album You Want</option>
+            <option value="Run BTS">Run BTS</option>
+            <option value="Dynamite">Dynamite</option>
+            <option value="FAKE LOVE">FAKE LOVE</option>
+            <option value="Butter">Butter</option>
+            <option value="MIC Drop">MIC Drop</option>
+            <option value="Life Goes On">Life Goes On</option>
+            <option value="Spring Day">Spring Day</option>
+            <option value="Blood Sweat & Tears">Blood Sweat & Tears</option>
+          </select>
+          <div >
+            <textarea required name="" id="" cols="30" rows="5" placeholder="Details" class="form-control"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script> -->
+
+</body>
+</html>
